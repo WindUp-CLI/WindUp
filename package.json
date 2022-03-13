@@ -1,0 +1,50 @@
+{
+	"name": "@windup-cli/windup",
+	"version": "0.0.11",
+	"description": "WindUp CLI is a Clockwork Studios product to generate project templates",
+	"homepage": "https://windup.app",
+	"url": "https://github.com/WindUp-CLI/WindUp/issues",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/WindUp-CLI/WindUp"
+	},
+	"main": "dist/index.js",
+	"bin": "bin/windup",
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"WindUp",
+		"CLI",
+		"WindUp CLI",
+		"JS Packages",
+		"JS Package Installer"
+	],
+	"author": "Clockwork Studios <info@cws.ltd> (https://cws.ltd)",
+	"license": {
+		"type": "W3C",
+		"url": "https://spdx.org/licenses/W3C.html"
+	},
+	"dependencies": {
+		"arg": "^4.1.0",
+		"chalk": "^2.4.2",
+		"covgen": "^3.1.0",
+		"esm": "^3.2.18",
+		"execa": "^1.0.0",
+		"gitignore": "^0.6.0",
+		"inquirer": "^6.2.2",
+		"listr": "^0.14.3",
+		"ncp": "^2.0.0",
+		"pkg-install": "^0.2.0",
+		"shelljs": "^0.8.5",
+		"spdx-license-list": "^5.0.0"
+	},
+	"files": [
+		"bin/",
+		"src/",
+		"templates/"
+	]
+}
